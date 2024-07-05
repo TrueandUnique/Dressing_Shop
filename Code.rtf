@@ -1,0 +1,76 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>My Dressing Images</title>\
+    <style>\
+        body \{\
+            font-family: Arial, sans-serif;\
+            background-color: #f8f8f8;\
+            margin: 0;\
+            padding: 20px;\
+        \}\
+        .gallery \{\
+            display: flex;\
+            flex-wrap: wrap;\
+            gap: 20px;\
+        \}\
+        .gallery img \{\
+            width: 100%;\
+            max-width: 300px;\
+            border-radius: 8px;\
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\
+            transition: transform 0.2s;\
+        \}\
+        .gallery img:hover \{\
+            transform: scale(1.05);\
+        \}\
+        .gallery-item \{\
+            flex: 1 1 calc(33.333% - 20px);\
+            box-sizing: border-box;\
+        \}\
+        @media (max-width: 768px) \{\
+            .gallery-item \{\
+                flex: 1 1 calc(50% - 20px);\
+            \}\
+        \}\
+        @media (max-width: 480px) \{\
+            .gallery-item \{\
+                flex: 1 1 100%;\
+            \}\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+    <h1>My Dressing Images</h1>\
+    <div class="gallery">\
+        <div class="gallery-item">\
+            <img src="image1.jpg" alt="Dressing Image 1">\
+        </div>\
+        <div class="gallery-item">\
+            <img src="image2.jpg" alt="Dressing Image 2">\
+        </div>\
+        <div class="gallery-item">\
+            <img src="image3.jpg" alt="Dressing Image 3">\
+        </div>\
+        <div class="gallery-item">\
+            <img src="image4.jpg" alt="Dressing Image 4">\
+        </div>\
+        <div class="gallery-item">\
+            <img src="image5.jpg" alt="Dressing Image 5">\
+        </div>\
+        <!-- Add more images as needed -->\
+    </div>\
+\
+</body>\
+</html>\
+}
